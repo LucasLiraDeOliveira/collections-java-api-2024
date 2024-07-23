@@ -57,6 +57,13 @@ public class ConsumerExample {
                 System.out.println(n);
             }
         });
+
+
+        // FORMA 5: usando filter e predicate para fazer o mesmo do exemplo anterior
+        System.out.println("\nForma 5:");
+        numeros.stream()
+                .filter(n -> n % 2 == 0)
+                .forEach(System.out::println);
     }
 }
 
