@@ -30,7 +30,7 @@ public class FunctionExample {
         // Imprimir a lista de números dobrados
         numerosDobrados.forEach(System.out::println); // isso era: (n -> System.out.println(n))
 
-/*
+
         // FORMA 2:
         System.out.println("\nForma 2:");
         // Usar a Function com expressão lambda para dobrar todos os números
@@ -64,7 +64,7 @@ public class FunctionExample {
 
         // Imprimir a lista de números dobrados
         numerosDobrados3.forEach(System.out::println);
-        
- */
+
+
     }
 }
